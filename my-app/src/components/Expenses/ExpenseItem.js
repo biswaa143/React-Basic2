@@ -8,18 +8,18 @@ const ExpenseItem = (props) => {
   const [amount, setTitle2] = useState(props.amount);
 
   const clickHandler = () => {
-    setTitle('Updated!');
+    setTitle("Updated!");
     console.log(title);
   };
-  
+
   const clickHandler2 = () => {
-    setTitle2('$100');
+    setTitle2("$100");
     console.log(amount);
   };
 
   return (
     <Card className="expense-item">
-        <ExpenseDate date={props.date}/>
+      <ExpenseDate date={props.date} />
       <div className="expense-item__description">
         <h2>{title}</h2>
         <div className="expense-item__price">{amount}</div>
@@ -28,6 +28,6 @@ const ExpenseItem = (props) => {
       <button onClick={clickHandler2}>Change Amount</button>
     </Card>
   );
-}
+};
 
 export default ExpenseItem;

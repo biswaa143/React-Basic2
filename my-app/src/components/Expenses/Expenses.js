@@ -17,9 +17,9 @@ const Expenses = (props) => {
         date={props.items[1].date}
       />
       <ExpenseItem
-         title={props.items[2].title}
-         amount={props.items[2].amount}
-         date={props.items[2].date}
+        title={props.items[2].title}
+        amount={props.items[2].amount}
+        date={props.items[2].date}
       />
       <ExpenseItem
         title={props.items[3].title}
@@ -28,6 +28,6 @@ const Expenses = (props) => {
       />
     </Card>
   );
-}
+};
 
 export default Expenses;
