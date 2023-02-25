@@ -12,17 +12,17 @@ const App = () => {
     {
       title: "Electric Bill",
       amount: 5000,
-      date: new Date(2023, 3, 30),
+      date: new Date(2022, 3, 30),
     },
     {
       title: "Fooding",
       amount: 10000,
-      date: new Date(2023, 4, 10),
+      date: new Date(2021, 4, 10),
     },
     {
       title: "Gaming Setup",
       amount: 250000,
-      date: new Date(2023, 5, 13),
+      date: new Date(2020, 5, 13),
     },
   ];
 
